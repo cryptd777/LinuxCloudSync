@@ -17,6 +17,12 @@ if [ -f "${AUTH_FILE}" ]; then
   # shellcheck disable=SC1090
   . "${AUTH_FILE}"
 fi
+if [ -n "${GITHUB_USERNAME:-}" ]; then
+  export GITHUB_USERNAME
+fi
+if [ -n "${GITHUB_TOKEN:-}" ]; then
+  export GITHUB_TOKEN
+fi
 
 # Initialize git repo if needed
 if [ ! -d ".git" ]; then
