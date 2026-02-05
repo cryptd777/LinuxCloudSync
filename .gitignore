@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual env
+venv/
+
+# Build artifacts
+build/
+dist/
+deb_build/
+
+# Packages / archives
+*.zip
+*.deb
+rclone-*-linux-*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# GitHub auth (local only)
+.github_auth
