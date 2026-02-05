@@ -6,6 +6,7 @@
 
 **Professional cloud storage sync client for Linux with advanced features**
 Release date: 2026-02-05
+First public release: v0.0.3
 
 ## 🎉 What's New in v0.x
 
@@ -262,38 +263,11 @@ chmod +x build_deb.sh
 sudo dpkg -i github.cryptd777.linuxcloudsync_*.deb
 ```
 
-## 📊 Version Comparison
+## 🧾 Version History
 
-| Feature | v1.0.2 | v0.0.3 |
-|---------|--------|--------|
-| Profiles | ❌ | ✅ |
-| Sync Modes | 1 | 3 |
-| Bandwidth Limit | ❌ | ✅ |
-| Dry Run | ❌ | ✅ |
-| Exclude Patterns | ❌ | ✅ |
-| Force Resync | CLI only | ✅ Button |
-| Progress Bar | ❌ | ✅ |
-| Tabbed UI | ❌ | ✅ |
-| Built-in Help | ❌ | ✅ |
+- **v0.0.3** — First public release (2026-02-05)
 
-## 📝 Changelog
-
-See [changelog/CHANGELOG.md](changelog/CHANGELOG.md) for complete version history.
-
-### v0.0.3 Highlights
-- ✨ Sync Profiles system
-- 🎨 Tabbed interface
-- 🔄 Force Resync button
-- ⚙️ Advanced options
-- 📊 Progress tracking
-- 📦 New package name + `lcs` command
-
-### v1.0.2
-- Fixed bisync flag compatibility
-
-### v1.0.1
-- Security fixes
-- Bidirectional sync support
+See [changelog/CHANGELOG.md](changelog/CHANGELOG.md) for detailed history and internal pre-release notes.
 
 ## 📄 License
 

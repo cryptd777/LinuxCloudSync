@@ -7,7 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [3.0.2] - 2026-02-05 - PACKAGING & UX UPDATE
+## [0.0.3] - 2026-02-05 - FIRST PUBLIC RELEASE
+
+### ✨ Highlights
+- First public release of LinuxCloud Sync
+- Packaged as `lcs` with zero-dependency build
+- Bundled rclone v1.65.2 for reliable bisync
+- Profiles, advanced options, and Force Resync included
+
+---
+
+## Internal pre-release history (not publicly released)
+
+## [3.0.2] - 2026-02-05 - PACKAGING & UX UPDATE (INTERNAL)
 
 ### ✨ Improvements
 - App version now reads from `.build_version`
@@ -21,7 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [2.0.0] - 2024-02-04 - MAJOR FEATURE RELEASE
+## [2.0.0] - 2024-02-04 - MAJOR FEATURE RELEASE (INTERNAL)
 
 ### 🎉 Major Features Added
 
