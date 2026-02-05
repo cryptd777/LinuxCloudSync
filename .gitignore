@@ -13,6 +13,7 @@ venv/
 build/
 dist/
 deb_build/
+bin/
 
 # Packages / archives
 *.zip
